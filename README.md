@@ -111,6 +111,14 @@ a>(b>c+d)*4+(e+f)
 
 Groups can be optionally concatenated with `+` operator. <br>
 <br>
+
+
+**FUZZY SEARCH**
+
+The CSS module uses fuzzy search to find unknown abbreviations. So, every time you enter an unknown abbreviation, Emmet will try to find the closest snippet definition. For example, ov:h and ov-h and ovh and oh will generate the same:
+
+>'overflow: hidden;'
+
 For more see  https://github.com/emmetio/emmet-docs/blob/master/src/files/cheatsheet-a5.pdf 
 
 **Video:**
