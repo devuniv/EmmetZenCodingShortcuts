@@ -35,5 +35,6 @@ The files below are just for reference (not needed for above-mentioned tasks)
 https://github.com/emmetio/npp#readme 
 
 https://github.com/emmetio/emmet-eclipse 
+clone by git, import eclipse project into Eclipse for Committers, right-click on io.emmet.eclipse.feature project in Package-Explorer, Export - Deployable Features (found under Plugin Development category) - point to some folder on local disk. It would generate what is found in this repo.
 
 http://docs.notepad-plus-plus.org/index.php/Auto_Completion 
