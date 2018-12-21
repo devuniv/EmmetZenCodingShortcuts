@@ -1,6 +1,8 @@
 
 # Zen Coding (Emmet) support for Eclipse Photon, Notepad++ (64-bit Windows 10)
 
+Original site is: https://github.com/emmetio but many links from there seem not to work (Dec 2018).
+
 - [x] 1. Notepad++ - Can work on 64-bit Win10 (see respective dll)
 
 - [x] 2. Notepad++ - All shortcuts pop-up in auto-completion
@@ -42,3 +44,25 @@ clone by git, import eclipse project into Eclipse for Committers, right-click on
 http://www.vogella.com/tutorials/EclipsePlugin/article.html#exercise-creating-and-using-a-first-plug-in 
 
 http://docs.notepad-plus-plus.org/index.php/Auto_Completion 
+
+---------
+
+Here’s an example: this abbreviation
+
+	#page>div.logo+ul#navigation>li*5>a{Item $}
+	
+...can be transformed into
+
+	<div id="page">
+		<div class="logo"></div>
+		<ul id="navigation">
+			<li><a href="">Item 1</a></li>
+			<li><a href="">Item 2</a></li>
+			<li><a href="">Item 3</a></li>
+			<li><a href="">Item 4</a></li>
+			<li><a href="">Item 5</a></li>
+		</ul>
+	</div>
+	
+  Main Emmet parser <br>
+  https://github.com/emmetio/abbreviation 
