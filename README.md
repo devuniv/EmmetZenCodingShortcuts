@@ -1,9 +1,9 @@
 
 # Zen Coding (Emmet) support for Eclipse Photon, Notepad++ (64-bit Windows 10)
 
-- [x] Can work on 64-bit (see respective dll)
+- [x] Notepad++ - Can work on 64-bit Win10 (see respective dll)
 
-- [x] Can auto-complete together with HTML and CSS words
+- [x] Notepad++ - Can auto-complete together with HTML and CSS words
 
 - [x] Eclipse Plugin (checked with Photon IDE)
 
