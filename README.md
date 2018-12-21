@@ -1,5 +1,11 @@
 
-Notepad++
+# Zen Coding (Emmet) support for Notepad++ (64-bit Windows 10)
+
+- [x] Can work on 64-bit (see respective dll)
+
+- [x] Can auto-complete together with HTML and CSS words
+
+<hr>
 
 1. Main _Menu -> Language -> Define Your Language -> Create New_ (add User Language: ZenCodingEmmet (or HTML_CSS_ZenCoding), add all keywords to 1st Group in  "Keyword Lists" Tab)
 
