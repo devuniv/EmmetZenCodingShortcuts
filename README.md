@@ -11,7 +11,7 @@
 
 <hr>
 
-1.1 64-bit version of dll - see in this repo. Put all files into `C:\Program Files\Notepad++\plugins`
+1.1 64-bit version of dll - see in this repo (same dll is also within Emmet NPP_x64_for Notepad.7z). Put all files from Win10_64bits/Emmet NPP_x64_for Notepad.7z into `C:\Program Files\Notepad++\plugins`. Restart. Done!
 
 2.1 Main _Menu -> Language -> Define Your Language -> Create New (add User Language: ZenCodingEmmet, add all keywords to 1st Group in  "Keyword Lists" Tab)
 
