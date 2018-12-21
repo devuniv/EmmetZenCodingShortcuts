@@ -48,7 +48,7 @@ http://www.vogella.com/tutorials/EclipsePlugin/article.html#exercise-creating-an
 http://docs.notepad-plus-plus.org/index.php/Auto_Completion 
 
 ---------
-# SYNTAXIS
+# SYNTAX
 
 Here’s an example: this abbreviation
 
