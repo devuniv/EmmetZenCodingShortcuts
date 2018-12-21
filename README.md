@@ -115,6 +115,6 @@ For more see  https://github.com/emmetio/emmet-docs/blob/master/src/files/cheats
 ----	
 <br>
 
-** Main Emmet parser <br> **
+**Main Emmet parser**  <br>
   https://github.com/emmetio/abbreviation 
   
