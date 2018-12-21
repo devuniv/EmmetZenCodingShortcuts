@@ -1,9 +1,9 @@
 
 Notepad++
 
-1. Main _Menu -> Language -> Define Your Language -> Create New_ (add User Language: ZenCodingEmmet, add all keywords to 1st Group in  "Keyword Lists" Tab)
+1. Main _Menu -> Language -> Define Your Language -> Create New_ (add User Language: ZenCodingEmmet (or HTML_CSS_ZenCoding), add all keywords to 1st Group in  "Keyword Lists" Tab)
 
-2. add xml-formatted file (see this repo) with same name as above (ZenCodingEmmet.xml) to `C:\Program Files\Notepad++\plugins\APIs folder`
+2. add xml-formatted file (see this repo) with same name as above (ZenCodingEmmet.xml (or HTML_CSS_ZenCoding)) to `C:\Program Files\Notepad++\plugins\APIs folder`
 
 64-bit version of dll - see in this repo
 
