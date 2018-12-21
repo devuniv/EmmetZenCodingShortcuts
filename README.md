@@ -9,6 +9,8 @@
 
 - [x] 4. Eclipse Plugin (checked with Photon IDE)
 
+- [x] 5. Docs for Emmet: https://github.com/emmetio/emmet-docs/blob/master/src/files/cheatsheet-a5.pdf 
+
 <hr>
 
 1.1 64-bit version of dll - see in this repo (same dll is also within Emmet NPP_x64_for Notepad.7z). Put all files from Win10_64bits/Emmet NPP_x64_for Notepad.7z into `C:\Program Files\Notepad++\plugins`. Restart. Done!
