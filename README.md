@@ -24,6 +24,14 @@
 4. Eclipse Plug-In: Install new software -> Local -> point to feature folder (root of unzipped archive), UNCHECK "Group Items by Category")
 
 
+Extras:
+
+The files below are just for reference (not needed for above-mentioned tasks)
+
+`ZenCoding_Emmet_Keywords.txt`
+`HTML_CSS_ZenCoding_keywords_Together.txt`
+
+
 https://github.com/emmetio/npp#readme 
 
 https://github.com/emmetio/emmet-eclipse 
