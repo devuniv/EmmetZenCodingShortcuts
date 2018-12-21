@@ -121,6 +121,10 @@ The CSS module uses fuzzy search to find unknown abbreviations. So, every time y
 
 For more see  https://github.com/emmetio/emmet-docs/blob/master/src/files/cheatsheet-a5.pdf 
 
+and 
+
+https://www.smashingmagazine.com/2013/03/goodbye-zen-coding-hello-emmet/ 
+
 **Video:**
 https://vimeo.com/7405114   (Proprietary HtmlPad or WeBuilder IDE used  https://www.webuilderapp.com/editions.php - Blumentals Software)
 
