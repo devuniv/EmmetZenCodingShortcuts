@@ -21,7 +21,7 @@
 
 3.2. Add xml-formatted file (see this repo) HTML_CSS_ZenCoding.xml to `C:\Program Files\Notepad++\plugins\APIs folder`
 
-4. Eclipse Plug-In: Install new software -> Local -> point to feature folder (root of unzipped archive), UNCHECK "Group Items by Category"). After install just press Tab inside Eclipse. Settings are under "Emmet" found in Preferences search bar.
+4. Eclipse Plug-In: Install new software -> Local -> point to feature folder (root of unzipped archive), UNCHECK "Group Items by Category"). After install just press Tab inside Eclipse. Settings are under "Emmet" found in Preferences search bar. Change Emmet's default TAB binding: Ctrl+Shift+L, L then search by Emmet (seen in CATEGORY column), change "Expand Abbreviation"), also change other bindings (Emmet sets many bindings!).
 
 
 Extras:
