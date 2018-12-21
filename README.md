@@ -1,5 +1,5 @@
 
-# Zen Coding (Emmet) support for Notepad++ (64-bit Windows 10)
+# Zen Coding (Emmet) support for Eclipse Photon, Notepad++ (64-bit Windows 10)
 
 - [x] Can work on 64-bit (see respective dll)
 
