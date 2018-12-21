@@ -68,51 +68,6 @@ Here’s an example: this abbreviation
 	</div>
 	
 	
-	## Abbreviation syntax
-
-Emmet abbreviation has the following basic parts:
-
-```
-name.class#id[attributes?, ...]{text value}*repeater/
-```
-
-* `name` — element name, like `div`, `span` etc. Stored as `node.name` property.
-* `[attributes]` — list of attributes. Each attribute is stored as [`Attribute`](/lib/attribute.js) instance and can be accessed by `node.getAttribute(name)`. Each attribute can be written in different formats:
-	* `attr` — attribute with empty value.
-	* `attr=value` — attribute with value. The `value` may contain any character except space or `]`.
-	* `attr="value"` or `attr='value'` — attribute with value in quotes. Quotes are automatically removed.
-	* `attr.` — boolean attribute, e.g. attribute without value, like `required` in `<input>`.
-	* `./non/attr/value` — value for default attribute. In other words, anything that doesn’t match a attribute name characters. Can be a single- or double-quotted as well. Default attribute is stored with `null` as name and should be used later, for example, to resolve predefined attributes.
-* `.class` — shorthand for `class` attribute. Note that an element can have multiple classes, like `.class1.class2.class3`.
-* `#id` — shorthand for `id` attribute.
-* `{text}` — node’s text content
-* `*N` — element repeater, tells parser to create `N` copies of given node.
-* `/` — optional self-closing operator. Marks element with `node.selfClosing = true`.
-
-### Operators
-
-Each element of abbreviation must be separated with any of these operators:
-
-```
-elem1+elem2>elem3
-```
-
-* `+` — sibling operator, adds next element as a next sibling of current element in tree.
-* `>` — child operator, adds next element as a child of current element.
-* `^` — climb-up operator, adds next element as a child of current element’s parent node. Multiple climb-up operators are allowed, each operator moves one level up by tree.
-
-### Groups
-
-A set of elements could be grouped using `()`, mostly for repeating and for easier elements nesting:
-
-```
-a>(b>c+d)*4+(e+f)
-```
-
-Groups can be optionally concatenated with `+` operator. <br>
-<br>
-
-
 **FUZZY SEARCH**
 
 The CSS module uses fuzzy search to find unknown abbreviations. So, every time you enter an unknown abbreviation, Emmet will try to find the closest snippet definition. For example, ov:h and ov-h and ovh and oh will generate the same:
