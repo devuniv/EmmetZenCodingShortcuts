@@ -21,7 +21,7 @@
 
 3.2. Add xml-formatted file (see this repo) HTML_CSS_ZenCoding.xml to `C:\Program Files\Notepad++\plugins\APIs folder`
 
-4. Eclipse Plug-In: Install new software -> Local -> point to feature folder (root of unzipped archive), UNCHECK "Group Items by Category")
+4. Eclipse Plug-In: Install new software -> Local -> point to feature folder (root of unzipped archive), UNCHECK "Group Items by Category"). After install just press Tab inside Eclipse. Settings are under "Emmet" found in Preferences search bar.
 
 
 Extras:
@@ -36,6 +36,7 @@ https://github.com/emmetio/npp#readme
 
 https://github.com/emmetio/emmet-eclipse 
 <br>
-clone by git, import eclipse project into Eclipse for Committers, right-click on io.emmet.eclipse.feature project in Package-Explorer, Export - Deployable Features (found under Plugin Development category) - point to some folder on local disk. It would generate what is found in this repo. Fourth project (emmet.eclipse is for JS, it has errors and it is not needed).
+clone by git, import eclipse project into Eclipse for Committers, right-click on io.emmet.eclipse.feature project in Package-Explorer, Export - Deployable Features (found under Plugin Development category) - point to some folder on local disk. It would generate what is found in this repo. Fourth project (emmet.eclipse is for JS, it has errors and it is not needed). <br>
+http://www.vogella.com/tutorials/EclipsePlugin/article.html#exercise-creating-and-using-a-first-plug-in 
 
 http://docs.notepad-plus-plus.org/index.php/Auto_Completion 
