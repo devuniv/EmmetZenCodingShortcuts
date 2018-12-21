@@ -110,6 +110,11 @@ a>(b>c+d)*4+(e+f)
 Groups can be optionally concatenated with `+` operator. <br>
 <br>
 For more see  https://github.com/emmetio/emmet-docs/blob/master/src/files/cheatsheet-a5.pdf 
+
+**Video:**
+https://vimeo.com/7405114   (Proprietary HtmlPad or WeBuilder IDE used  https://www.webuilderapp.com/editions.php - Blumentals Software)
+
+
 	
 <br>
 ----	
