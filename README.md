@@ -16,4 +16,6 @@
 
 https://github.com/emmetio/npp#readme 
 
+https://github.com/emmetio/emmet-eclipse 
+
 http://docs.notepad-plus-plus.org/index.php/Auto_Completion 
